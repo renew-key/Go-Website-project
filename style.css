@@ -99,3 +99,29 @@ p {
 section.right ul{
     margin-left: 2rem;
 }
+
+
+main.no-flex{
+  display: block;
+}
+
+.korea-title{
+ font-size: 1.5rem;
+}
+
+.player{
+    border: 1px lightgray solid;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+.player h4{
+    font-size: 1.3rem;
+    padding: 0.8rem 0rem;
+}
+
+.player h5{
+    color: rgb(49, 149, 149);
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+}
