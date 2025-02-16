@@ -107,6 +107,7 @@ main.no-flex{
 
 .korea-title{
  font-size: 1.5rem;
+ font-weight: bold;
 }
 
 .player{
@@ -118,6 +119,7 @@ main.no-flex{
 .player h4{
     font-size: 1.3rem;
     padding: 0.8rem 0rem;
+    font-weight: bold;
 }
 
 .player h5{
@@ -125,3 +127,52 @@ main.no-flex{
     font-size: 1rem;
     padding: 0.5rem 0rem;
 }
+
+
+div.japan{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+div.japan .image{
+  flex:1 1 300px;
+  display: flex;
+  align-items: center;
+}
+
+div.japan .image img{
+   width: 100%;
+}
+
+div.japan .info{
+    flex:3 1 600px;
+    padding: 0rem 2rem;
+}
+
+div.competition{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+div.competition .text{
+   flex: 5 1 300px;
+   padding: 1rem;
+}
+
+
+div.competition .text h3{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(49, 149, 149);
+}
+
+div.competition .text ul{
+    margin-left: 2rem;
+}
+
+div.competition #piechart{
+    flex: 1 1 300px;
+ }
+
